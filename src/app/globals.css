@@ -1,4 +1,43 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Poppins-SemiBold.ttf) format("truetype");
+}
+
+
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/Poppins-Bold.ttf) format("truetype");
+}
+
+
 @import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(33.51% 0.05796 189.576);
+}
 
 :root {
   --background: #ffffff;
@@ -22,5 +61,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
