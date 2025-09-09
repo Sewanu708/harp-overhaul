@@ -7,7 +7,7 @@ function Sidebar() {
 
  
     return (
-        <div className="flex flex-col h-screen border-r-gray-200">
+        <div className="flex flex-col h-screen border-r border-r-gray-300">
             {/* logo */}
             <div className="px-4 pt-4 pb-1">
                 <Link href={'/'}>

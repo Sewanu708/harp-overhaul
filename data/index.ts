@@ -48,14 +48,14 @@ export const routeData: RouteSection[] = [
         header: "Messaging",
         items: [
             {
-                name: "Mail",
-                path: "/mail",
+                name: "Email",
+                path: "/email",
                 icon: Mail,
                 children: [
-                    { name: "Mail Logs", path: "/mail/logs", icon: FileText },
-                    { name: "Domain", path: "/mail/domain", icon: Globe },
-                    { name: "Send", path: "/mail/send", icon: Send },
-                    { name: "Templates", path: "/mail/templates", icon: BookOpen },
+                    { name: "Email Logs", path: "/email/logs", icon: FileText },
+                    { name: "Domain", path: "/email/domain", icon: Globe },
+                    { name: "Send", path: "/email/send", icon: Send },
+                    { name: "Templates", path: "/email/templates", icon: BookOpen },
                 ],
                 control: 'mail'
             },
@@ -82,3 +82,20 @@ export const dashboardRoute = [
     'whatsapp'
 ]
 
+
+export const pageInfo: Record<string, { title: string; description: string }> = {
+    "/email/logs": {
+        title: "Email",
+        description: "Manage emails, templates, and mail logs.",
+    },
+    "/email/domain": {
+        title: "Domain",
+        description: "Manage emails, templates, and mail logs.",
+    }, "/email/templates": {
+        title: "Template",
+        description: "Manage emails, templates, and mail logs.",
+    }, "/email/send": {
+        title: "Send",
+        description: "Manage emails, templates, and mail logs.",
+    },
+}

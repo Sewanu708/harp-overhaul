@@ -17,7 +17,7 @@ export default function DashboardLayout({
             </div>
 
             <div className="flex-1">
-
+                {children}
             </div>
 
 

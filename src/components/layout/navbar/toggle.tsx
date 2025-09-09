@@ -19,7 +19,7 @@ function Toggle() {
                     <div
                         key={d}
                         className={`pb-1 capitalize px-2 font-[500] cursor-pointer text-sm
-                         ${tab == d ?
+                         ${(tab == d) || (tab == null && d == 'general') ?
                                 'border-b-[1.5px] border-b-primary  text-primary' :
                                 'text-gray-500'}`}
                         onClick={() => handleTabSwitch(d)}
