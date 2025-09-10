@@ -99,3 +99,32 @@ export const pageInfo: Record<string, { title: string; description: string }> = 
         description: "Manage emails, templates, and mail logs.",
     },
 }
+
+
+export const mails = [
+  {
+    to: "john.doe@example.com",
+    subject: "Welcome to Our Platform 🎉",
+    body: "Hi John,\n\nThank you for signing up! We're excited to have you on board. Let us know if you have any questions.\n\nBest,\nThe Team"
+  },
+  {
+    to: "jane.smith@example.com",
+    subject: "Meeting Reminder 📅",
+    body: "Hi Jane,\n\nThis is a reminder for our scheduled meeting tomorrow at 10:00 AM. Please be prepared with your project updates.\n\nThanks,\nProject Coordinator"
+  },
+  {
+    to: "michael.brown@example.com",
+    subject: "Invoice #4521 Due",
+    body: "Dear Michael,\n\nThis is a friendly reminder that your invoice #4521 is due on September 15th. Kindly make the payment to avoid late fees.\n\nRegards,\nAccounts Department"
+  },
+  {
+    to: "emily.jones@example.com",
+    subject: "Your Order Has Shipped 🚚",
+    body: "Hi Emily,\n\nGreat news! Your order #98765 has been shipped and is on its way. You can track it using the link provided in your dashboard.\n\nCheers,\nCustomer Support"
+  },
+  {
+    to: "david.wilson@example.com",
+    subject: "Password Reset Request 🔑",
+    body: "Hello David,\n\nWe received a request to reset your password. Click the link below to set a new password. If you didn’t request this, please ignore this email.\n\nThanks,\nSecurity Team"
+  }
+];
