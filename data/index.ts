@@ -10,10 +10,7 @@ import {
     Send,
     BookOpen,
     Webhook,
-    User,
-    KeyRound,
     CreditCard,
-    Users,
     Settings
 } from "lucide-react";
 
@@ -54,7 +51,7 @@ export const routeData: RouteSection[] = [
                 children: [
                     { name: "Email Logs", path: "/email/logs", icon: FileText },
                     { name: "Domain", path: "/email/domain", icon: Globe },
-                    { name: "Send", path: "/email/send", icon: Send },
+                    { name: "Sending", path: "/email/sending", icon: Send },
                     { name: "Templates", path: "/email/templates", icon: BookOpen },
                 ],
                 control: 'mail'
