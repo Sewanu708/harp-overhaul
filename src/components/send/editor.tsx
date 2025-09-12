@@ -1,7 +1,9 @@
+import { SimpleEditor } from "../tiptap-templates/simple/simple-editor"
+
 function Editor() {
     return (
         <div className="bg-white rounded-md flex-1 w-full">
-            Editor
+            <SimpleEditor/>
         </div>
     )
 }

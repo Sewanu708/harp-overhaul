@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import '../styles/_variables.scss';
+@import '../styles/_keyframe-animations.scss';
+
+
 @font-face {
   font-family: "Poppins";
   font-style: normal;
@@ -39,7 +43,7 @@
 
 @theme {
   --color-primary: oklch(33.51% 0.05796 189.576);
-  --color-primary-bg :#F7F9F9;
+  --color-primary-bg: #F7F9F9;
 }
 
 @theme inline {
@@ -86,16 +90,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 5px;
   height: 10px;
   background: #F7F9F9;
   border-radius: 4px;
 }
 
-::-webkit-scrollbar-thumb{
-    background: #616565;
-    border-radius: 4px;
+::-webkit-scrollbar-thumb {
+  background: #616565;
+  border-radius: 4px;
 }
 
 :root {
@@ -171,6 +175,7 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }

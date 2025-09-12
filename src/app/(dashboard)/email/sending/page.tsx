@@ -17,7 +17,7 @@ function Send() {
     }
 
     // display main page
-    if (sendingDomain.length > 0)
+    if (sendingDomain.length === 0)
         return (
 
             <div className='flex gap-2 bg-primary-bg flex-1'>
